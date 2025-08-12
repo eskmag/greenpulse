@@ -1,0 +1,176 @@
+{
+  "metadata": {
+    "table_id": "08940",
+    "title": "08940: Greenhouse gases, by source (activity), pollutant, contents and year",
+    "source": "Statistics Norway",
+    "updated": "2023-11-03T07:00:00Z",
+    "notes": [
+      "Due to rounding error, the total may not match the sum of subgroups.",
+      "Does not include ocean transport and international air transport. Domestic air transport includes flights made by the Norwegian armed forces.",
+      "The table CO2 equivalents (GWP-values) according to AR4, the IPCCs Fourth Assessment Report, which are used in the Kyoto Protocol.",
+      "See corresponding table <a href='https://www.ssb.no/en/statbank/table/13931/'>13931</a> for emissions due to the Paris Agreement."
+    ],
+    "unit": "1,000 tonnes CO2-equivalents (AR4)",
+    "contact": [
+      {
+        "name": "Trude Melby Bothner",
+        "organization": "Statistics Norway",
+        "phone": "408 11 425",
+        "mail": "tmb@ssb.no",
+        "raw": "Trude Melby Bothner, Statistics Norway# +47 408 11 425#tmb@ssb.no"
+      },
+      {
+        "name": "Eirik Knutsen",
+        "organization": "Statistics Norway",
+        "phone": "9848 9464",
+        "mail": "eir@ssb.no",
+        "raw": "Eirik Knutsen, Statistics Norway# +47 9848 9464#eir@ssb.no"
+      }
+    ]
+  },
+  "dimensions": {
+    "source": {
+      "0": "All sources"
+    },
+    "pollutant": {
+      "A10": "Greenhouse gases total"
+    },
+    "contents": {
+      "UtslippCO2ekvival": "Emissions to air (1 000 tonnes CO2-equivalents, AR4)"
+    }
+  },
+  "data": [
+    {
+      "year": 1990,
+      "emissions_ktCO2e": 51342
+    },
+    {
+      "year": 1991,
+      "emissions_ktCO2e": 48947
+    },
+    {
+      "year": 1992,
+      "emissions_ktCO2e": 47303
+    },
+    {
+      "year": 1993,
+      "emissions_ktCO2e": 49245
+    },
+    {
+      "year": 1994,
+      "emissions_ktCO2e": 51153
+    },
+    {
+      "year": 1995,
+      "emissions_ktCO2e": 51576
+    },
+    {
+      "year": 1996,
+      "emissions_ktCO2e": 54452
+    },
+    {
+      "year": 1997,
+      "emissions_ktCO2e": 54405
+    },
+    {
+      "year": 1998,
+      "emissions_ktCO2e": 54493
+    },
+    {
+      "year": 1999,
+      "emissions_ktCO2e": 55506
+    },
+    {
+      "year": 2000,
+      "emissions_ktCO2e": 54866
+    },
+    {
+      "year": 2001,
+      "emissions_ktCO2e": 56110
+    },
+    {
+      "year": 2002,
+      "emissions_ktCO2e": 54874
+    },
+    {
+      "year": 2003,
+      "emissions_ktCO2e": 55412
+    },
+    {
+      "year": 2004,
+      "emissions_ktCO2e": 55806
+    },
+    {
+      "year": 2005,
+      "emissions_ktCO2e": 54713
+    },
+    {
+      "year": 2006,
+      "emissions_ktCO2e": 54661
+    },
+    {
+      "year": 2007,
+      "emissions_ktCO2e": 56338
+    },
+    {
+      "year": 2008,
+      "emissions_ktCO2e": 54784
+    },
+    {
+      "year": 2009,
+      "emissions_ktCO2e": 52187
+    },
+    {
+      "year": 2010,
+      "emissions_ktCO2e": 54460
+    },
+    {
+      "year": 2011,
+      "emissions_ktCO2e": 53553
+    },
+    {
+      "year": 2012,
+      "emissions_ktCO2e": 52931
+    },
+    {
+      "year": 2013,
+      "emissions_ktCO2e": 53177
+    },
+    {
+      "year": 2014,
+      "emissions_ktCO2e": 53587
+    },
+    {
+      "year": 2015,
+      "emissions_ktCO2e": 54098
+    },
+    {
+      "year": 2016,
+      "emissions_ktCO2e": 53225
+    },
+    {
+      "year": 2017,
+      "emissions_ktCO2e": 52524
+    },
+    {
+      "year": 2018,
+      "emissions_ktCO2e": 52632
+    },
+    {
+      "year": 2019,
+      "emissions_ktCO2e": 50902
+    },
+    {
+      "year": 2020,
+      "emissions_ktCO2e": 49235
+    },
+    {
+      "year": 2021,
+      "emissions_ktCO2e": 49074
+    },
+    {
+      "year": 2022,
+      "emissions_ktCO2e": 48691
+    }
+  ]
+}
