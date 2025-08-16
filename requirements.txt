@@ -3,3 +3,6 @@ requests
 numpy
 plotly
 matplotlib
+streamlit
+seaborn
+python-dotenv
