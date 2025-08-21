@@ -38,7 +38,19 @@ def load_data():
             elhub_raw = json.load(f)
         elhub_data = ElhubDataProcessor.to_consumption_summary(elhub_raw)
     
-    return ssb_emissions, elhub_data
+    # Load Enova efficiency data
+    enova_companies = None
+    enova_projects = None
+    
+    companies_path = data_dir / "processed" / "company_efficiency_summary.csv"
+    if companies_path.exists():
+        enova_companies = pd.read_csv(companies_path)
+    
+    projects_path = data_dir / "processed" / "efficiency_projects.csv"
+    if projects_path.exists():
+        enova_projects = pd.read_csv(projects_path)
+    
+    return ssb_emissions, elhub_data, enova_companies, enova_projects
 
 
 def plot_emissions_trend(df):
@@ -124,7 +136,84 @@ def plot_hourly_consumption(df):
     return fig
 
 
-def show_summary_stats(ssb_df, elhub_df):
+def plot_company_efficiency(companies_df):
+    """Create company efficiency visualization"""
+    if companies_df is None or companies_df.empty:
+        return None
+    
+    fig = px.scatter(
+        companies_df,
+        x='efficiency_improvement_percent',
+        y='energy_savings_mwh',
+        size='total_investment_nok',
+        color='sector',
+        hover_data=['company_name', 'employees', 'renewable_share_percent'],
+        title='🏭 Company Energy Efficiency Performance',
+        labels={
+            'efficiency_improvement_percent': 'Efficiency Improvement (%)',
+            'energy_savings_mwh': 'Energy Savings (MWh)',
+            'total_investment_nok': 'Investment (NOK)'
+        }
+    )
+    
+    fig.update_layout(
+        xaxis_title="Efficiency Improvement (%)",
+        yaxis_title="Energy Savings (MWh)",
+        showlegend=True
+    )
+    
+    return fig
+
+
+def plot_efficiency_projects(projects_df):
+    """Create efficiency projects timeline"""
+    if projects_df is None or projects_df.empty:
+        return None
+    
+    # Aggregate by year and project type
+    yearly_projects = projects_df.groupby(['year', 'project_type']).agg({
+        'investment_nok': 'sum',
+        'annual_savings_mwh': 'sum',
+        'co2_reduction_tonnes': 'sum'
+    }).reset_index()
+    
+    fig = px.bar(
+        yearly_projects,
+        x='year',
+        y='investment_nok',
+        color='project_type',
+        title='💰 Energy Efficiency Investments by Year and Type',
+        labels={
+            'investment_nok': 'Investment (NOK)',
+            'year': 'Year',
+            'project_type': 'Project Type'
+        }
+    )
+    
+    return fig
+
+
+def plot_renewable_energy_share(companies_df):
+    """Create renewable energy share visualization"""
+    if companies_df is None or companies_df.empty:
+        return None
+    
+    fig = px.box(
+        companies_df,
+        x='sector',
+        y='renewable_share_percent',
+        title='♻️ Renewable Energy Share by Sector',
+        labels={
+            'renewable_share_percent': 'Renewable Energy Share (%)',
+            'sector': 'Industry Sector'
+        }
+    )
+    
+    fig.update_layout(xaxis_tickangle=-45)
+    return fig
+
+
+def show_summary_stats(ssb_df, elhub_df, enova_companies, enova_projects):
     """Show summary statistics"""
     col1, col2, col3, col4 = st.columns(4)
     
@@ -148,21 +237,21 @@ def show_summary_stats(ssb_df, elhub_df):
             )
     
     with col3:
-        if elhub_df is not None and not elhub_df.empty:
-            total_consumption = elhub_df['quantity_kwh'].sum()
+        if enova_companies is not None and not enova_companies.empty:
+            total_savings = enova_companies['energy_savings_mwh'].sum()
             st.metric(
-                "Total Energy Data",
-                f"{total_consumption:,.0f} kWh",
-                f"{len(elhub_df)} records"
+                "Total Energy Savings",
+                f"{total_savings:,.0f} MWh",
+                f"{len(enova_companies)} companies"
             )
     
     with col4:
-        if elhub_df is not None and not elhub_df.empty:
-            unique_areas = elhub_df['price_area'].nunique()
+        if enova_companies is not None and not enova_companies.empty:
+            avg_renewable = enova_companies['renewable_share_percent'].mean()
             st.metric(
-                "Price Areas",
-                f"{unique_areas}",
-                "Monitored"
+                "Avg Renewable Share",
+                f"{avg_renewable:.1f}%",
+                "Bergen region"
             )
 
 
@@ -175,18 +264,18 @@ def main():
     )
     
     st.title("🌱 GreenPulse Sustainability Dashboard")
-    st.markdown("*Visualizing Norway's emissions and energy data for ESG reporting*")
+    st.markdown("*Visualizing Norway's emissions, energy data, and company efficiency for ESG reporting*")
     
     # Load data
     with st.spinner("Loading data..."):
-        ssb_emissions, elhub_data = load_data()
+        ssb_emissions, elhub_data, enova_companies, enova_projects = load_data()
     
     # Show summary statistics
     st.subheader("📊 Key Metrics")
-    show_summary_stats(ssb_emissions, elhub_data)
+    show_summary_stats(ssb_emissions, elhub_data, enova_companies, enova_projects)
     
     # Main content tabs
-    tab1, tab2, tab3 = st.tabs(["🌍 Emissions", "⚡ Energy Consumption", "📈 Combined Analysis"])
+    tab1, tab2, tab3, tab4 = st.tabs(["🌍 Emissions", "⚡ Energy Consumption", "🏭 Company Efficiency", "📊 ESG Reports"])
     
     with tab1:
         st.subheader("Greenhouse Gas Emissions")
@@ -256,30 +345,152 @@ def main():
             st.error("❌ No energy consumption data available. Run the data fetch script first.")
     
     with tab3:
-        st.subheader("Combined Analysis")
+        st.subheader("Company Energy Efficiency")
         
-        if ssb_emissions is not None and elhub_data is not None and not elhub_data.empty:
-            st.markdown("### 🔄 Data Integration Opportunities")
-            st.markdown("""
-            This tab would show correlations between emissions and energy consumption:
-            - Energy consumption vs emissions intensity
-            - Regional analysis combining price areas with emissions
-            - Time series analysis of efficiency improvements
-            - ESG reporting metrics
+        if enova_companies is not None and not enova_companies.empty:
+            col1, col2 = st.columns(2)
+            
+            with col1:
+                fig_efficiency = plot_company_efficiency(enova_companies)
+                if fig_efficiency:
+                    st.plotly_chart(fig_efficiency, use_container_width=True)
+            
+            with col2:
+                fig_renewable = plot_renewable_energy_share(enova_companies)
+                if fig_renewable:
+                    st.plotly_chart(fig_renewable, use_container_width=True)
+            
+            # Investment analysis
+            if enova_projects is not None and not enova_projects.empty:
+                fig_projects = plot_efficiency_projects(enova_projects)
+                if fig_projects:
+                    st.plotly_chart(fig_projects, use_container_width=True)
+            
+            # Company selector and details
+            st.markdown("### 🏢 Company Details")
+            selected_company = st.selectbox(
+                "Select a company for detailed analysis:",
+                enova_companies['company_name'].tolist()
+            )
+            
+            if selected_company:
+                company_data = enova_companies[enova_companies['company_name'] == selected_company].iloc[0]
+                
+                col1, col2, col3, col4 = st.columns(4)
+                with col1:
+                    st.metric("Sector", company_data['sector'])
+                with col2:
+                    st.metric("Employees", f"{company_data['employees']}")
+                with col3:
+                    st.metric("Efficiency Improvement", f"{company_data['efficiency_improvement_percent']:.1f}%")
+                with col4:
+                    st.metric("Renewable Share", f"{company_data['renewable_share_percent']:.1f}%")
+                
+                # Show company projects
+                if enova_projects is not None:
+                    company_projects = enova_projects[enova_projects['company_name'] == selected_company]
+                    if not company_projects.empty:
+                        st.markdown("#### 🔧 Efficiency Projects")
+                        st.dataframe(company_projects[['year', 'project_type', 'investment_nok', 'annual_savings_mwh', 'co2_reduction_tonnes']])
+            
+            # Efficiency insights
+            st.markdown("### 🎯 Efficiency Insights")
+            total_investment = enova_companies['total_investment_nok'].sum()
+            total_savings = enova_companies['energy_savings_mwh'].sum()
+            avg_efficiency = enova_companies['efficiency_improvement_percent'].mean()
+            
+            st.markdown(f"""
+            - **Total efficiency investments**: {total_investment:,.0f} NOK
+            - **Total energy savings**: {total_savings:,.0f} MWh
+            - **Average efficiency improvement**: {avg_efficiency:.1f}%
+            - **Companies tracked**: {len(enova_companies)} in Bergen region
+            - **Data source**: Demo Energy Efficiency Data (Enova-style)
             """)
-            
-            # Placeholder for future analysis
-            st.info("🚧 Advanced analysis features coming soon!")
-            
         else:
-            st.warning("⚠️ Combined analysis requires both emissions and energy data.")
+            st.error("❌ No company efficiency data available. Run the data fetch script first.")
+    
+    with tab4:
+        st.subheader("ESG Reports & Export")
+        
+        # ESG Summary
+        st.markdown("### 📈 ESG Summary Dashboard")
+        
+        if all(data is not None for data in [ssb_emissions, enova_companies]):
+            col1, col2 = st.columns(2)
+            
+            with col1:
+                st.markdown("#### Environmental Metrics")
+                latest_emissions = ssb_emissions.iloc[-1]['emissions_MtCO2e']
+                total_co2_reduction = enova_companies['energy_savings_mwh'].sum() * 0.12  # Approx kg CO2/kWh
+                
+                st.metric("National Emissions", f"{latest_emissions:.1f} Mt CO2eq")
+                st.metric("Company CO2 Reductions", f"{total_co2_reduction:,.0f} tonnes")
+                st.metric("Avg Renewable Share", f"{enova_companies['renewable_share_percent'].mean():.1f}%")
+            
+            with col2:
+                st.markdown("#### Social & Governance")
+                total_employees = enova_companies['employees'].sum()
+                companies_tracked = len(enova_companies)
+                sectors = enova_companies['sector'].nunique()
+                
+                st.metric("Employees Covered", f"{total_employees:,}")
+                st.metric("Companies Tracked", f"{companies_tracked}")
+                st.metric("Sectors Covered", f"{sectors}")
+        
+        # Export functionality
+        st.markdown("### 📄 Export Options")
+        
+        col1, col2, col3 = st.columns(3)
+        
+        with col1:
+            if st.button("� Download Company Data"):
+                if enova_companies is not None:
+                    csv = enova_companies.to_csv(index=False)
+                    st.download_button(
+                        "💾 company_efficiency_data.csv",
+                        csv,
+                        "company_efficiency_data.csv",
+                        "text/csv"
+                    )
+        
+        with col2:
+            if st.button("🔧 Download Projects Data"):
+                if enova_projects is not None:
+                    csv = enova_projects.to_csv(index=False)
+                    st.download_button(
+                        "💾 efficiency_projects.csv",
+                        csv,
+                        "efficiency_projects.csv", 
+                        "text/csv"
+                    )
+        
+        with col3:
+            if st.button("🌍 Download Emissions Data"):
+                if ssb_emissions is not None:
+                    csv = ssb_emissions.to_csv(index=False)
+                    st.download_button(
+                        "💾 norway_emissions.csv",
+                        csv,
+                        "norway_emissions.csv",
+                        "text/csv"
+                    )
+        
+        st.markdown("### 📋 ESG Reporting Standards")
+        st.markdown("""
+        This dashboard provides data aligned with major ESG frameworks:
+        - **GRI Standards**: Environmental performance indicators
+        - **EU Taxonomy**: Climate change mitigation metrics  
+        - **TCFD**: Climate-related financial disclosures
+        - **SASB**: Sustainability accounting standards
+        """)
     
     # Footer
     st.markdown("---")
     st.markdown("""
     **Data Sources**: 
-    - Statistics Norway (SSB) for emissions data
+    - Statistics Norway (SSB) for national emissions data
     - Elhub for energy consumption data
+    - Demo energy efficiency data for Bergen region companies
     
     **Last Updated**: {timestamp}
     """.format(timestamp=datetime.now().strftime("%Y-%m-%d %H:%M")))

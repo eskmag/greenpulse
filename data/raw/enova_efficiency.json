@@ -1,0 +1,648 @@
+{
+  "metadata": {
+    "source": "Demo Energy Efficiency Data (Enova-style)",
+    "region": "Bergen/Vestland, Norway",
+    "generated_at": "2025-08-20T20:50:14.194191",
+    "data_type": "energy_efficiency_demo",
+    "years_covered": [
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "description": "Simulated energy efficiency and renewable energy data for Bergen region companies"
+  },
+  "regional_summary": {
+    "region": "Bergen/Vestland",
+    "total_companies": 7,
+    "total_efficiency_projects": 25,
+    "total_investment_nok": 27534658,
+    "total_energy_savings_mwh": 3884.4,
+    "total_co2_reduction_tonnes": 466.3,
+    "average_renewable_share": 52.9
+  },
+  "companies": [
+    {
+      "company_info": {
+        "name": "Bergen Maritime Solutions AS",
+        "sector": "Maritime",
+        "employees": 150,
+        "energy_baseline": 2500
+      },
+      "efficiency_projects": [
+        {
+          "year": 2021,
+          "project_type": "Heat pump installation",
+          "investment_nok": 1429515,
+          "annual_savings_mwh": 279.0,
+          "co2_reduction_tonnes": 33.5,
+          "enova_support_nok": 0
+        },
+        {
+          "year": 2022,
+          "project_type": "Electric vehicle fleet",
+          "investment_nok": 369377,
+          "annual_savings_mwh": 240.9,
+          "co2_reduction_tonnes": 28.9,
+          "enova_support_nok": 228818
+        },
+        {
+          "year": 2023,
+          "project_type": "Energy management system",
+          "investment_nok": 939390,
+          "annual_savings_mwh": 79.8,
+          "co2_reduction_tonnes": 9.6,
+          "enova_support_nok": 0
+        },
+        {
+          "year": 2025,
+          "project_type": "HVAC optimization",
+          "investment_nok": 595189,
+          "annual_savings_mwh": 154.4,
+          "co2_reduction_tonnes": 18.5,
+          "enova_support_nok": 144138
+        }
+      ],
+      "annual_metrics": [
+        {
+          "year": 2020,
+          "total_energy_consumption_mwh": 2519.4,
+          "efficiency_improvement_percent": 0.0,
+          "cumulative_savings_mwh": 0,
+          "renewable_energy_share_percent": 42.8,
+          "co2_emissions_tonnes": 302.3
+        },
+        {
+          "year": 2021,
+          "total_energy_consumption_mwh": 2252.2,
+          "efficiency_improvement_percent": 11.16,
+          "cumulative_savings_mwh": 279.0,
+          "renewable_energy_share_percent": 49.9,
+          "co2_emissions_tonnes": 270.3
+        },
+        {
+          "year": 2022,
+          "total_energy_consumption_mwh": 1985.0,
+          "efficiency_improvement_percent": 20.79,
+          "cumulative_savings_mwh": 519.8,
+          "renewable_energy_share_percent": 53.4,
+          "co2_emissions_tonnes": 238.2
+        },
+        {
+          "year": 2023,
+          "total_energy_consumption_mwh": 1940.9,
+          "efficiency_improvement_percent": 23.98,
+          "cumulative_savings_mwh": 599.6,
+          "renewable_energy_share_percent": 66.4,
+          "co2_emissions_tonnes": 232.9
+        },
+        {
+          "year": 2024,
+          "total_energy_consumption_mwh": 1927.7,
+          "efficiency_improvement_percent": 23.98,
+          "cumulative_savings_mwh": 599.6,
+          "renewable_energy_share_percent": 53.6,
+          "co2_emissions_tonnes": 231.3
+        },
+        {
+          "year": 2025,
+          "total_energy_consumption_mwh": 1718.9,
+          "efficiency_improvement_percent": 30.16,
+          "cumulative_savings_mwh": 754.0,
+          "renewable_energy_share_percent": 71.7,
+          "co2_emissions_tonnes": 206.3
+        }
+      ]
+    },
+    {
+      "company_info": {
+        "name": "Havbruk Bergen AS",
+        "sector": "Aquaculture",
+        "employees": 80,
+        "energy_baseline": 1800
+      },
+      "efficiency_projects": [
+        {
+          "year": 2021,
+          "project_type": "HVAC optimization",
+          "investment_nok": 1228474,
+          "annual_savings_mwh": 242.6,
+          "co2_reduction_tonnes": 29.1,
+          "enova_support_nok": 389394
+        },
+        {
+          "year": 2022,
+          "project_type": "Solar panel installation",
+          "investment_nok": 760091,
+          "annual_savings_mwh": 260.5,
+          "co2_reduction_tonnes": 31.3,
+          "enova_support_nok": 127480
+        },
+        {
+          "year": 2023,
+          "project_type": "Building insulation",
+          "investment_nok": 1872241,
+          "annual_savings_mwh": 113.1,
+          "co2_reduction_tonnes": 13.6,
+          "enova_support_nok": 193470
+        },
+        {
+          "year": 2024,
+          "project_type": "Electric vehicle fleet",
+          "investment_nok": 1770739,
+          "annual_savings_mwh": 212.2,
+          "co2_reduction_tonnes": 25.5,
+          "enova_support_nok": 473646
+        },
+        {
+          "year": 2025,
+          "project_type": "Energy management system",
+          "investment_nok": 1844470,
+          "annual_savings_mwh": 178.5,
+          "co2_reduction_tonnes": 21.4,
+          "enova_support_nok": 376965
+        }
+      ],
+      "annual_metrics": [
+        {
+          "year": 2020,
+          "total_energy_consumption_mwh": 1764.7,
+          "efficiency_improvement_percent": 0.0,
+          "cumulative_savings_mwh": 0,
+          "renewable_energy_share_percent": 21.2,
+          "co2_emissions_tonnes": 211.8
+        },
+        {
+          "year": 2021,
+          "total_energy_consumption_mwh": 1588.8,
+          "efficiency_improvement_percent": 13.48,
+          "cumulative_savings_mwh": 242.6,
+          "renewable_energy_share_percent": 46.2,
+          "co2_emissions_tonnes": 190.7
+        },
+        {
+          "year": 2022,
+          "total_energy_consumption_mwh": 1292.1,
+          "efficiency_improvement_percent": 27.95,
+          "cumulative_savings_mwh": 503.1,
+          "renewable_energy_share_percent": 35.4,
+          "co2_emissions_tonnes": 155.0
+        },
+        {
+          "year": 2023,
+          "total_energy_consumption_mwh": 1197.7,
+          "efficiency_improvement_percent": 34.23,
+          "cumulative_savings_mwh": 616.1,
+          "renewable_energy_share_percent": 67.7,
+          "co2_emissions_tonnes": 143.7
+        },
+        {
+          "year": 2024,
+          "total_energy_consumption_mwh": 1080.0,
+          "efficiency_improvement_percent": 46.02,
+          "cumulative_savings_mwh": 828.3,
+          "renewable_energy_share_percent": 49.7,
+          "co2_emissions_tonnes": 116.1
+        },
+        {
+          "year": 2025,
+          "total_energy_consumption_mwh": 1080.0,
+          "efficiency_improvement_percent": 55.93,
+          "cumulative_savings_mwh": 1006.8,
+          "renewable_energy_share_percent": 49.3,
+          "co2_emissions_tonnes": 98.6
+        }
+      ]
+    },
+    {
+      "company_info": {
+        "name": "Vestland Industri AS",
+        "sector": "Manufacturing",
+        "employees": 200,
+        "energy_baseline": 3200
+      },
+      "efficiency_projects": [
+        {
+          "year": 2021,
+          "project_type": "LED lighting upgrade",
+          "investment_nok": 1154066,
+          "annual_savings_mwh": 64.0,
+          "co2_reduction_tonnes": 7.7,
+          "enova_support_nok": 462294
+        },
+        {
+          "year": 2023,
+          "project_type": "Energy management system",
+          "investment_nok": 982451,
+          "annual_savings_mwh": 178.9,
+          "co2_reduction_tonnes": 21.5,
+          "enova_support_nok": 416411
+        },
+        {
+          "year": 2024,
+          "project_type": "HVAC optimization",
+          "investment_nok": 636202,
+          "annual_savings_mwh": 105.9,
+          "co2_reduction_tonnes": 12.7,
+          "enova_support_nok": 493151
+        }
+      ],
+      "annual_metrics": [
+        {
+          "year": 2020,
+          "total_energy_consumption_mwh": 3212.5,
+          "efficiency_improvement_percent": 0.0,
+          "cumulative_savings_mwh": 0,
+          "renewable_energy_share_percent": 29.7,
+          "co2_emissions_tonnes": 385.5
+        },
+        {
+          "year": 2021,
+          "total_energy_consumption_mwh": 3184.5,
+          "efficiency_improvement_percent": 2.0,
+          "cumulative_savings_mwh": 64.0,
+          "renewable_energy_share_percent": 60.8,
+          "co2_emissions_tonnes": 382.1
+        },
+        {
+          "year": 2022,
+          "total_energy_consumption_mwh": 3180.0,
+          "efficiency_improvement_percent": 2.0,
+          "cumulative_savings_mwh": 64.0,
+          "renewable_energy_share_percent": 52.3,
+          "co2_emissions_tonnes": 381.6
+        },
+        {
+          "year": 2023,
+          "total_energy_consumption_mwh": 2915.3,
+          "efficiency_improvement_percent": 7.59,
+          "cumulative_savings_mwh": 242.9,
+          "renewable_energy_share_percent": 31.8,
+          "co2_emissions_tonnes": 349.8
+        },
+        {
+          "year": 2024,
+          "total_energy_consumption_mwh": 2875.0,
+          "efficiency_improvement_percent": 10.9,
+          "cumulative_savings_mwh": 348.8,
+          "renewable_energy_share_percent": 51.5,
+          "co2_emissions_tonnes": 345.0
+        },
+        {
+          "year": 2025,
+          "total_energy_consumption_mwh": 2847.7,
+          "efficiency_improvement_percent": 10.9,
+          "cumulative_savings_mwh": 348.8,
+          "renewable_energy_share_percent": 48.7,
+          "co2_emissions_tonnes": 341.7
+        }
+      ]
+    },
+    {
+      "company_info": {
+        "name": "Bergen Logistikk AS",
+        "sector": "Transport",
+        "employees": 120,
+        "energy_baseline": 2100
+      },
+      "efficiency_projects": [
+        {
+          "year": 2021,
+          "project_type": "Heat pump installation",
+          "investment_nok": 991389,
+          "annual_savings_mwh": 66.5,
+          "co2_reduction_tonnes": 8.0,
+          "enova_support_nok": 0
+        },
+        {
+          "year": 2023,
+          "project_type": "Solar panel installation",
+          "investment_nok": 1054165,
+          "annual_savings_mwh": 75.1,
+          "co2_reduction_tonnes": 9.0,
+          "enova_support_nok": 388856
+        },
+        {
+          "year": 2024,
+          "project_type": "Energy management system",
+          "investment_nok": 1012024,
+          "annual_savings_mwh": 70.3,
+          "co2_reduction_tonnes": 8.4,
+          "enova_support_nok": 0
+        }
+      ],
+      "annual_metrics": [
+        {
+          "year": 2020,
+          "total_energy_consumption_mwh": 2109.7,
+          "efficiency_improvement_percent": 0.0,
+          "cumulative_savings_mwh": 0,
+          "renewable_energy_share_percent": 46.6,
+          "co2_emissions_tonnes": 253.2
+        },
+        {
+          "year": 2021,
+          "total_energy_consumption_mwh": 2027.3,
+          "efficiency_improvement_percent": 3.17,
+          "cumulative_savings_mwh": 66.5,
+          "renewable_energy_share_percent": 28.4,
+          "co2_emissions_tonnes": 243.3
+        },
+        {
+          "year": 2022,
+          "total_energy_consumption_mwh": 2009.0,
+          "efficiency_improvement_percent": 3.17,
+          "cumulative_savings_mwh": 66.5,
+          "renewable_energy_share_percent": 37.7,
+          "co2_emissions_tonnes": 241.1
+        },
+        {
+          "year": 2023,
+          "total_energy_consumption_mwh": 1921.5,
+          "efficiency_improvement_percent": 6.74,
+          "cumulative_savings_mwh": 141.6,
+          "renewable_energy_share_percent": 44.6,
+          "co2_emissions_tonnes": 230.6
+        },
+        {
+          "year": 2024,
+          "total_energy_consumption_mwh": 1917.2,
+          "efficiency_improvement_percent": 10.09,
+          "cumulative_savings_mwh": 211.9,
+          "renewable_energy_share_percent": 34.7,
+          "co2_emissions_tonnes": 230.1
+        },
+        {
+          "year": 2025,
+          "total_energy_consumption_mwh": 1884.7,
+          "efficiency_improvement_percent": 10.09,
+          "cumulative_savings_mwh": 211.9,
+          "renewable_energy_share_percent": 40.9,
+          "co2_emissions_tonnes": 226.2
+        }
+      ]
+    },
+    {
+      "company_info": {
+        "name": "Fjord Energy Solutions",
+        "sector": "Energy",
+        "employees": 90,
+        "energy_baseline": 1600
+      },
+      "efficiency_projects": [
+        {
+          "year": 2022,
+          "project_type": "Energy management system",
+          "investment_nok": 1829034,
+          "annual_savings_mwh": 154.7,
+          "co2_reduction_tonnes": 18.6,
+          "enova_support_nok": 232816
+        },
+        {
+          "year": 2023,
+          "project_type": "Electric vehicle fleet",
+          "investment_nok": 1145082,
+          "annual_savings_mwh": 138.4,
+          "co2_reduction_tonnes": 16.6,
+          "enova_support_nok": 0
+        },
+        {
+          "year": 2024,
+          "project_type": "Heat pump installation",
+          "investment_nok": 733101,
+          "annual_savings_mwh": 280.3,
+          "co2_reduction_tonnes": 33.6,
+          "enova_support_nok": 0
+        }
+      ],
+      "annual_metrics": [
+        {
+          "year": 2020,
+          "total_energy_consumption_mwh": 1608.6,
+          "efficiency_improvement_percent": 0.0,
+          "cumulative_savings_mwh": 0,
+          "renewable_energy_share_percent": 39.7,
+          "co2_emissions_tonnes": 193.0
+        },
+        {
+          "year": 2021,
+          "total_energy_consumption_mwh": 1560.5,
+          "efficiency_improvement_percent": 0.0,
+          "cumulative_savings_mwh": 0,
+          "renewable_energy_share_percent": 52.2,
+          "co2_emissions_tonnes": 187.3
+        },
+        {
+          "year": 2022,
+          "total_energy_consumption_mwh": 1474.2,
+          "efficiency_improvement_percent": 9.67,
+          "cumulative_savings_mwh": 154.7,
+          "renewable_energy_share_percent": 28.4,
+          "co2_emissions_tonnes": 176.9
+        },
+        {
+          "year": 2023,
+          "total_energy_consumption_mwh": 1317.1,
+          "efficiency_improvement_percent": 18.32,
+          "cumulative_savings_mwh": 293.1,
+          "renewable_energy_share_percent": 60.6,
+          "co2_emissions_tonnes": 158.1
+        },
+        {
+          "year": 2024,
+          "total_energy_consumption_mwh": 1024.8,
+          "efficiency_improvement_percent": 35.84,
+          "cumulative_savings_mwh": 573.4,
+          "renewable_energy_share_percent": 43.0,
+          "co2_emissions_tonnes": 123.0
+        },
+        {
+          "year": 2025,
+          "total_energy_consumption_mwh": 1061.1,
+          "efficiency_improvement_percent": 35.84,
+          "cumulative_savings_mwh": 573.4,
+          "renewable_energy_share_percent": 38.3,
+          "co2_emissions_tonnes": 127.3
+        }
+      ]
+    },
+    {
+      "company_info": {
+        "name": "Bergen Fish Processing",
+        "sector": "Food Processing",
+        "employees": 160,
+        "energy_baseline": 2800
+      },
+      "efficiency_projects": [
+        {
+          "year": 2022,
+          "project_type": "Energy management system",
+          "investment_nok": 468353,
+          "annual_savings_mwh": 115.8,
+          "co2_reduction_tonnes": 13.9,
+          "enova_support_nok": 249163
+        },
+        {
+          "year": 2023,
+          "project_type": "Energy management system",
+          "investment_nok": 637684,
+          "annual_savings_mwh": 63.9,
+          "co2_reduction_tonnes": 7.7,
+          "enova_support_nok": 0
+        },
+        {
+          "year": 2024,
+          "project_type": "Building insulation",
+          "investment_nok": 1022876,
+          "annual_savings_mwh": 78.9,
+          "co2_reduction_tonnes": 9.5,
+          "enova_support_nok": 0
+        }
+      ],
+      "annual_metrics": [
+        {
+          "year": 2020,
+          "total_energy_consumption_mwh": 2833.7,
+          "efficiency_improvement_percent": 0.0,
+          "cumulative_savings_mwh": 0,
+          "renewable_energy_share_percent": 34.3,
+          "co2_emissions_tonnes": 340.0
+        },
+        {
+          "year": 2021,
+          "total_energy_consumption_mwh": 2758.8,
+          "efficiency_improvement_percent": 0.0,
+          "cumulative_savings_mwh": 0,
+          "renewable_energy_share_percent": 31.9,
+          "co2_emissions_tonnes": 331.1
+        },
+        {
+          "year": 2022,
+          "total_energy_consumption_mwh": 2674.1,
+          "efficiency_improvement_percent": 4.14,
+          "cumulative_savings_mwh": 115.8,
+          "renewable_energy_share_percent": 59.0,
+          "co2_emissions_tonnes": 320.9
+        },
+        {
+          "year": 2023,
+          "total_energy_consumption_mwh": 2636.7,
+          "efficiency_improvement_percent": 6.42,
+          "cumulative_savings_mwh": 179.7,
+          "renewable_energy_share_percent": 33.9,
+          "co2_emissions_tonnes": 316.4
+        },
+        {
+          "year": 2024,
+          "total_energy_consumption_mwh": 2500.3,
+          "efficiency_improvement_percent": 9.23,
+          "cumulative_savings_mwh": 258.6,
+          "renewable_energy_share_percent": 41.3,
+          "co2_emissions_tonnes": 300.0
+        },
+        {
+          "year": 2025,
+          "total_energy_consumption_mwh": 2549.8,
+          "efficiency_improvement_percent": 9.23,
+          "cumulative_savings_mwh": 258.6,
+          "renewable_energy_share_percent": 63.6,
+          "co2_emissions_tonnes": 306.0
+        }
+      ]
+    },
+    {
+      "company_info": {
+        "name": "Kystservice Bergen AS",
+        "sector": "Services",
+        "employees": 75,
+        "energy_baseline": 1200
+      },
+      "efficiency_projects": [
+        {
+          "year": 2022,
+          "project_type": "Electric vehicle fleet",
+          "investment_nok": 1971308,
+          "annual_savings_mwh": 190.8,
+          "co2_reduction_tonnes": 22.9,
+          "enova_support_nok": 162106
+        },
+        {
+          "year": 2023,
+          "project_type": "LED lighting upgrade",
+          "investment_nok": 1784487,
+          "annual_savings_mwh": 142.6,
+          "co2_reduction_tonnes": 17.1,
+          "enova_support_nok": 0
+        },
+        {
+          "year": 2024,
+          "project_type": "Building insulation",
+          "investment_nok": 461404,
+          "annual_savings_mwh": 215.0,
+          "co2_reduction_tonnes": 25.8,
+          "enova_support_nok": 401700
+        },
+        {
+          "year": 2025,
+          "project_type": "Solar panel installation",
+          "investment_nok": 841546,
+          "annual_savings_mwh": 182.5,
+          "co2_reduction_tonnes": 21.9,
+          "enova_support_nok": 194378
+        }
+      ],
+      "annual_metrics": [
+        {
+          "year": 2020,
+          "total_energy_consumption_mwh": 1191.5,
+          "efficiency_improvement_percent": 0.0,
+          "cumulative_savings_mwh": 0,
+          "renewable_energy_share_percent": 40.9,
+          "co2_emissions_tonnes": 143.0
+        },
+        {
+          "year": 2021,
+          "total_energy_consumption_mwh": 1232.7,
+          "efficiency_improvement_percent": 0.0,
+          "cumulative_savings_mwh": 0,
+          "renewable_energy_share_percent": 53.3,
+          "co2_emissions_tonnes": 147.9
+        },
+        {
+          "year": 2022,
+          "total_energy_consumption_mwh": 1026.7,
+          "efficiency_improvement_percent": 15.9,
+          "cumulative_savings_mwh": 190.8,
+          "renewable_energy_share_percent": 56.0,
+          "co2_emissions_tonnes": 123.2
+        },
+        {
+          "year": 2023,
+          "total_energy_consumption_mwh": 872.1,
+          "efficiency_improvement_percent": 27.78,
+          "cumulative_savings_mwh": 333.4,
+          "renewable_energy_share_percent": 57.0,
+          "co2_emissions_tonnes": 104.6
+        },
+        {
+          "year": 2024,
+          "total_energy_consumption_mwh": 720.0,
+          "efficiency_improvement_percent": 45.7,
+          "cumulative_savings_mwh": 548.4,
+          "renewable_energy_share_percent": 57.9,
+          "co2_emissions_tonnes": 81.4
+        },
+        {
+          "year": 2025,
+          "total_energy_consumption_mwh": 720.0,
+          "efficiency_improvement_percent": 60.91,
+          "cumulative_savings_mwh": 730.9,
+          "renewable_energy_share_percent": 57.5,
+          "co2_emissions_tonnes": 52.3
+        }
+      ]
+    }
+  ]
+}

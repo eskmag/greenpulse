@@ -35,23 +35,22 @@ cp .env.example .env
 # Edit .env with your API keys if available
 ```
 
-### 2. Fetch Data
+### 3. Using the Unified CLI
 ```bash
 # Fetch all available data
-python src/data_fetch/fetch_all.py
-```
+python main.py fetch
 
-### 3. Run Analysis
-```bash
-# Generate emissions analysis report
-python run_analysis.py
-```
+# Run emissions analysis only
+python main.py analyze
 
-### 4. Launch Dashboard
-```bash
-# Start the interactive dashboard
-python run_dashboard.py
-# Or directly: streamlit run src/visualization/dashboard.py
+# Run comprehensive ESG analysis
+python main.py comprehensive
+
+# Launch interactive dashboard
+python main.py dashboard
+
+# Complete workflow
+python main.py fetch && python main.py comprehensive && python main.py dashboard
 ```
 
 ## 📊 Data Sources
@@ -66,6 +65,7 @@ python run_dashboard.py
 
 ```
 greenpulse/
+├── main.py                 # � Unified CLI entry point
 ├── src/
 │   ├── data_fetch/          # Data collection modules
 │   │   ├── sources/         # API clients for each data source
@@ -81,10 +81,7 @@ greenpulse/
 ├── data/
 │   ├── raw/               # Raw API responses
 │   └── processed/         # Clean, analysis-ready data
-├── notebooks/            # Jupyter notebooks (planned)
-├── run_analysis.py       # Analysis runner script
-├── run_dashboard.py      # Dashboard launcher
-└── requirements.txt      # Dependencies
+└── requirements.txt       # Dependencies
 ```
 
 ## 📈 Current Data Insights

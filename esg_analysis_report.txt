@@ -1,0 +1,44 @@
+# 🌱 GreenPulse ESG Analysis Report
+==================================================
+
+## 🌍 Environmental Performance
+### National Emissions Context (Norway)
+- Latest emissions: 45.0 Mt CO2eq
+- Change since 1990: -12.3%
+- Recent trend (10yr): -16.5%
+
+### Bergen Region Company Performance
+- Companies analyzed: 7
+- Total energy savings: 3,884 MWh
+- Average efficiency improvement: 30.4%
+- Average renewable energy share: 52.9%
+- Total CO2 reduction: 466 tonnes
+
+## 👥 Social & Governance Metrics
+- Total employees covered: 875
+- Industry sectors represented: 7
+- Investment in efficiency: 27,534,658 NOK
+
+## 🏆 Top Performing Companies
+### Energy Efficiency Leaders:
+- **Kystservice Bergen AS** (Services): 60.9% improvement
+- **Havbruk Bergen AS** (Aquaculture): 55.9% improvement
+- **Fjord Energy Solutions** (Energy): 35.8% improvement
+
+### Renewable Energy Leaders:
+- **Bergen Maritime Solutions AS** (Maritime): 71.7% renewable
+- **Bergen Fish Processing** (Food Processing): 63.6% renewable
+- **Kystservice Bergen AS** (Services): 57.5% renewable
+
+## 📋 ESG Framework Alignment
+This analysis provides metrics aligned with:
+- **GRI Standards**: Energy consumption, emissions, efficiency
+- **EU Taxonomy**: Climate change mitigation activities
+- **TCFD**: Climate-related risks and opportunities
+- **SASB**: Industry-specific sustainability metrics
+
+## 🎯 Key Recommendations
+- Increase renewable energy adoption across sectors
+- Continue investment in proven technologies (heat pumps, LED, solar)
+- Expand efficiency programs to more companies
+- Develop sector-specific efficiency benchmarks
