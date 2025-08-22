@@ -84,14 +84,16 @@ greenpulse/
 └── requirements.txt       # Dependencies
 ```
 
-## 📈 Current Data Insights
+## � Current Data Insights
 
-Based on the latest analysis of Norwegian emissions:
+Based on the latest analysis of Norwegian emissions (updated August 2025):
 
 - **📉 12.3% reduction** in emissions since 1990 (51.4 → 45.0 Mt CO2eq)
 - **🎯 Peak emissions** were 56.5 Mt CO2eq in 2007
 - **📊 Recent trend** shows consistent decline over the last 10 years (-16.5%)
 - **🔮 Forecast** suggests continued decline to ~41.7 Mt CO2eq by 2029
+- **⚡ Energy patterns** show peak consumption during winter months
+- **🌍 Regional variations** in energy consumption across Norwegian price areas
 
 ## 🛠️ Technical Details
 
@@ -107,17 +109,19 @@ Based on the latest analysis of Norwegian emissions:
 ### Dependencies
 - **Data**: `pandas`, `requests`, `numpy`
 - **Visualization**: `streamlit`, `plotly`, `matplotlib`, `seaborn`
+- **Analysis**: `scikit-learn`, `statsmodels`
 - **Environment**: `python-dotenv`
 
 ## 🎨 Dashboard Features
 
-The interactive dashboard includes:
+The interactive Streamlit dashboard includes:
 
-- **📊 Emissions Trends**: Historical emissions with peak/latest annotations
+- **📊 Emissions Trends**: Historical emissions with peak/latest annotations and trend lines
 - **⚡ Energy Consumption**: Real-time energy data by price areas and consumption groups
 - **🕐 Hourly Patterns**: Average consumption patterns throughout the day
-- **📈 Forecasting**: Simple linear projections based on recent trends
-- **📋 Data Tables**: Raw data exploration with filtering
+- **📈 Forecasting**: Linear projections and advanced time series models
+- **📋 Data Tables**: Raw data exploration with filtering and export options
+- **🔍 Comparative Analysis**: Year-over-year comparisons and seasonal adjustments
 
 ## 🔧 Development Roadmap
 
@@ -130,17 +134,17 @@ The interactive dashboard includes:
 ### Phase 2: Analysis 🚧
 - [x] Emissions trend analysis
 - [x] Simple forecasting
-- [ ] Energy efficiency metrics
+- [x] Energy efficiency metrics integration
 - [ ] Regional analysis by price areas
 - [ ] Correlation analysis between emissions and energy
 
 ### Phase 3: Enhanced Features 📋
+- [ ] Advanced forecasting models (ARIMA, Prophet)
 - [ ] Fix Enova API integration
-- [ ] Advanced forecasting models
 - [ ] ESG reporting templates
 - [ ] Export capabilities (PDF reports)
-- [ ] Automated data updates
-- [ ] Web deployment
+- [ ] Automated data updates with scheduling
+- [ ] Web deployment with cloud hosting
 
 ## 🤝 Contributing
 
@@ -155,4 +159,4 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 
-**Last Updated**: August 2025 | **Status**: Active Development | **Next**: Fix Enova API integration
+**Last Updated**: August 22, 2025 | **Status**: Active Development | **Next**: Enhanced analytics and Enova API integration
