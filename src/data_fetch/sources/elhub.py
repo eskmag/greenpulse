@@ -16,7 +16,6 @@ class ElhubApiClient:
     def __init__(self, api_key: Optional[str] = None):
         self.api_key = api_key or os.getenv('ELHUB_API_KEY')
         # Elhub's correct API v0 endpoints
-        self.base_url = 'https://api.elhub.no/energy-data/v0'
         self.entities = ['Price Areas', 'Grid Areas', 'Metering Points', 'Municipalities']
         self.datasets = {
             'consumption': 'CONSUMPTION_PER_GROUP_MBA_HOUR',

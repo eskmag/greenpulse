@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 """
 GreenPulse - Unified CLI for ESG data analysis and reporting
+Also serves as the entry point for the Flask web application
 """
 import argparse
 import sys
 import subprocess
 from pathlib import Path
 import pandas as pd
+import os
 
 # Add project root to path
 project_root = Path(__file__).resolve().parent
