@@ -1,24 +1,20 @@
 year,project_type,investment_nok,annual_savings_mwh,co2_reduction_tonnes,enova_support_nok,company_name,company_sector
-2022,Solar panel installation,1811101,179.9,21.6,0,Bergen Maritime Solutions AS,Maritime
-2023,LED lighting upgrade,384105,229.8,27.6,0,Bergen Maritime Solutions AS,Maritime
-2025,LED lighting upgrade,891352,60.8,7.3,100544,Bergen Maritime Solutions AS,Maritime
-2021,Energy management system,421416,265.4,31.8,63537,Havbruk Bergen AS,Aquaculture
-2023,Heat pump installation,440843,64.4,7.7,252959,Havbruk Bergen AS,Aquaculture
-2025,HVAC optimization,1085113,100.4,12.0,0,Havbruk Bergen AS,Aquaculture
-2023,LED lighting upgrade,891560,197.7,23.7,122966,Vestland Industri AS,Manufacturing
-2024,HVAC optimization,773454,230.9,27.7,198155,Vestland Industri AS,Manufacturing
-2025,Heat pump installation,1221416,267.3,32.1,0,Vestland Industri AS,Manufacturing
-2021,LED lighting upgrade,1537531,163.8,19.7,0,Bergen Logistikk AS,Transport
-2023,Electric vehicle fleet,1089486,171.7,20.6,0,Bergen Logistikk AS,Transport
-2024,Building insulation,1786001,157.6,18.9,419598,Bergen Logistikk AS,Transport
-2022,Electric vehicle fleet,615893,132.5,15.9,0,Fjord Energy Solutions,Energy
-2023,Building insulation,1951922,120.0,14.4,487802,Fjord Energy Solutions,Energy
-2024,HVAC optimization,429751,143.6,17.2,272892,Fjord Energy Solutions,Energy
-2021,Heat pump installation,1804082,241.1,28.9,0,Bergen Fish Processing,Food Processing
-2023,Energy management system,1279180,186.0,22.3,486035,Bergen Fish Processing,Food Processing
-2024,HVAC optimization,664603,78.6,9.4,0,Bergen Fish Processing,Food Processing
-2025,Electric vehicle fleet,852552,215.8,25.9,441514,Bergen Fish Processing,Food Processing
-2021,HVAC optimization,1789941,175.4,21.0,190155,Kystservice Bergen AS,Services
-2022,HVAC optimization,1165310,154.3,18.5,265472,Kystservice Bergen AS,Services
-2023,Building insulation,750324,253.4,30.4,448070,Kystservice Bergen AS,Services
-2024,Energy management system,452400,129.6,15.6,222406,Kystservice Bergen AS,Services
+2021,Building insulation,660161,89.7,10.8,364806,Bergen Maritime Solutions AS,Maritime
+2023,LED lighting upgrade,1198887,225.7,27.1,165947,Bergen Maritime Solutions AS,Maritime
+2024,HVAC optimization,1490951,285.9,34.3,0,Bergen Maritime Solutions AS,Maritime
+2021,Solar panel installation,1808441,239.0,28.7,163425,Havbruk Bergen AS,Aquaculture
+2022,LED lighting upgrade,1341812,165.1,19.8,454800,Havbruk Bergen AS,Aquaculture
+2024,LED lighting upgrade,545678,186.5,22.4,271445,Havbruk Bergen AS,Aquaculture
+2025,Electric vehicle fleet,1820356,132.0,15.8,154609,Havbruk Bergen AS,Aquaculture
+2021,Solar panel installation,1769395,149.2,17.9,447092,Vestland Industri AS,Manufacturing
+2021,Energy management system,282718,210.9,25.3,0,Bergen Logistikk AS,Transport
+2022,Building insulation,1075533,50.1,6.0,0,Bergen Logistikk AS,Transport
+2024,Electric vehicle fleet,965906,248.5,29.8,426288,Bergen Logistikk AS,Transport
+2021,Heat pump installation,1768685,165.1,19.8,0,Fjord Energy Solutions,Energy
+2025,LED lighting upgrade,1815866,233.3,28.0,145109,Fjord Energy Solutions,Energy
+2022,Electric vehicle fleet,216097,199.6,24.0,94470,Bergen Fish Processing,Food Processing
+2023,Solar panel installation,1963930,291.7,35.0,297707,Bergen Fish Processing,Food Processing
+2025,LED lighting upgrade,373843,97.2,11.7,0,Bergen Fish Processing,Food Processing
+2021,Solar panel installation,1583108,219.1,26.3,0,Kystservice Bergen AS,Services
+2023,Electric vehicle fleet,1392226,247.4,29.7,418567,Kystservice Bergen AS,Services
+2024,Solar panel installation,527687,205.8,24.7,187996,Kystservice Bergen AS,Services

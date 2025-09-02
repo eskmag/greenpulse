@@ -8,16 +8,17 @@ import sys
 from pathlib import Path
 
 # Add project root to path
-project_root = Path(__file__).resolve().parent
+project_root = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(project_root))
 
-from webapp import app
+from app import create_app
 
 def run_phase1_demo():
     """Demonstrate Phase 1 MVP functionality"""
     print("🚀 GreenPulse Phase 1 MVP Demo")
     print("="*50)
     
+    app = create_app()
     with app.test_client() as client:
         
         print("\n1️⃣ API Status Check")

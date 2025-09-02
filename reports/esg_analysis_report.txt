@@ -9,26 +9,26 @@
 
 ### Bergen Region Company Performance
 - Companies analyzed: 7
-- Total energy savings: 3,884 MWh
-- Average efficiency improvement: 30.4%
-- Average renewable energy share: 52.9%
-- Total CO2 reduction: 466 tonnes
+- Total energy savings: 3,920 MWh
+- Average efficiency improvement: 28.3%
+- Average renewable energy share: 58.0%
+- Total CO2 reduction: 470 tonnes
 
 ## 👥 Social & Governance Metrics
 - Total employees covered: 875
 - Industry sectors represented: 7
-- Investment in efficiency: 27,534,658 NOK
+- Investment in efficiency: 24,089,336 NOK
 
 ## 🏆 Top Performing Companies
 ### Energy Efficiency Leaders:
-- **Kystservice Bergen AS** (Services): 60.9% improvement
-- **Havbruk Bergen AS** (Aquaculture): 55.9% improvement
-- **Fjord Energy Solutions** (Energy): 35.8% improvement
+- **Kystservice Bergen AS** (Services): 59.4% improvement
+- **Bergen Fish Processing** (Food Processing): 25.8% improvement
+- **Fjord Energy Solutions** (Energy): 24.8% improvement
 
 ### Renewable Energy Leaders:
-- **Bergen Maritime Solutions AS** (Maritime): 71.7% renewable
-- **Bergen Fish Processing** (Food Processing): 63.6% renewable
-- **Kystservice Bergen AS** (Services): 57.5% renewable
+- **Havbruk Bergen AS** (Aquaculture): 74.8% renewable
+- **Bergen Logistikk AS** (Transport): 69.0% renewable
+- **Fjord Energy Solutions** (Energy): 68.5% renewable
 
 ## 📋 ESG Framework Alignment
 This analysis provides metrics aligned with:

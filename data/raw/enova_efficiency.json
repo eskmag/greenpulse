@@ -2,7 +2,7 @@
   "metadata": {
     "source": "Demo Energy Efficiency Data (Enova-style)",
     "region": "Bergen/Vestland, Norway",
-    "generated_at": "2025-08-23T20:14:44.330219",
+    "generated_at": "2025-09-02T12:06:37.094733",
     "data_type": "energy_efficiency_demo",
     "years_covered": [
       2020,
@@ -17,11 +17,11 @@
   "regional_summary": {
     "region": "Bergen/Vestland",
     "total_companies": 7,
-    "total_efficiency_projects": 23,
-    "total_investment_nok": 24089336,
-    "total_energy_savings_mwh": 3920.0,
-    "total_co2_reduction_tonnes": 470.2,
-    "average_renewable_share": 58.0
+    "total_efficiency_projects": 19,
+    "total_investment_nok": 22601280,
+    "total_energy_savings_mwh": 3641.9,
+    "total_co2_reduction_tonnes": 437.1,
+    "average_renewable_share": 46.6
   },
   "companies": [
     {
@@ -33,78 +33,78 @@
       },
       "efficiency_projects": [
         {
-          "year": 2022,
-          "project_type": "Solar panel installation",
-          "investment_nok": 1811101,
-          "annual_savings_mwh": 179.9,
-          "co2_reduction_tonnes": 21.6,
-          "enova_support_nok": 0
+          "year": 2021,
+          "project_type": "Building insulation",
+          "investment_nok": 660161,
+          "annual_savings_mwh": 89.7,
+          "co2_reduction_tonnes": 10.8,
+          "enova_support_nok": 364806
         },
         {
           "year": 2023,
           "project_type": "LED lighting upgrade",
-          "investment_nok": 384105,
-          "annual_savings_mwh": 229.8,
-          "co2_reduction_tonnes": 27.6,
-          "enova_support_nok": 0
+          "investment_nok": 1198887,
+          "annual_savings_mwh": 225.7,
+          "co2_reduction_tonnes": 27.1,
+          "enova_support_nok": 165947
         },
         {
-          "year": 2025,
-          "project_type": "LED lighting upgrade",
-          "investment_nok": 891352,
-          "annual_savings_mwh": 60.8,
-          "co2_reduction_tonnes": 7.3,
-          "enova_support_nok": 100544
+          "year": 2024,
+          "project_type": "HVAC optimization",
+          "investment_nok": 1490951,
+          "annual_savings_mwh": 285.9,
+          "co2_reduction_tonnes": 34.3,
+          "enova_support_nok": 0
         }
       ],
       "annual_metrics": [
         {
           "year": 2020,
-          "total_energy_consumption_mwh": 2484.3,
+          "total_energy_consumption_mwh": 2548.4,
           "efficiency_improvement_percent": 0.0,
           "cumulative_savings_mwh": 0,
-          "renewable_energy_share_percent": 30.7,
-          "co2_emissions_tonnes": 298.1
+          "renewable_energy_share_percent": 45.2,
+          "co2_emissions_tonnes": 305.8
         },
         {
           "year": 2021,
-          "total_energy_consumption_mwh": 2525.2,
-          "efficiency_improvement_percent": 0.0,
-          "cumulative_savings_mwh": 0,
-          "renewable_energy_share_percent": 33.0,
-          "co2_emissions_tonnes": 303.0
+          "total_energy_consumption_mwh": 2420.9,
+          "efficiency_improvement_percent": 3.59,
+          "cumulative_savings_mwh": 89.7,
+          "renewable_energy_share_percent": 34.7,
+          "co2_emissions_tonnes": 290.5
         },
         {
           "year": 2022,
-          "total_energy_consumption_mwh": 2279.8,
-          "efficiency_improvement_percent": 7.2,
-          "cumulative_savings_mwh": 179.9,
-          "renewable_energy_share_percent": 50.0,
-          "co2_emissions_tonnes": 273.6
+          "total_energy_consumption_mwh": 2379.7,
+          "efficiency_improvement_percent": 3.59,
+          "cumulative_savings_mwh": 89.7,
+          "renewable_energy_share_percent": 53.0,
+          "co2_emissions_tonnes": 285.6
         },
         {
           "year": 2023,
-          "total_energy_consumption_mwh": 2090.7,
-          "efficiency_improvement_percent": 16.39,
-          "cumulative_savings_mwh": 409.7,
-          "renewable_energy_share_percent": 55.8,
-          "co2_emissions_tonnes": 250.9
+          "total_energy_consumption_mwh": 2169.9,
+          "efficiency_improvement_percent": 12.62,
+          "cumulative_savings_mwh": 315.4,
+          "renewable_energy_share_percent": 56.5,
+          "co2_emissions_tonnes": 260.4
         },
         {
           "year": 2024,
-          "total_energy_consumption_mwh": 2083.3,
-          "efficiency_improvement_percent": 16.39,
-          "cumulative_savings_mwh": 409.7,
-          "renewable_energy_share_percent": 71.3,
-          "co2_emissions_tonnes": 250.0
+          "total_energy_consumption_mwh": 1855.0,
+          "efficiency_improvement_percent": 24.05,
+          "cumulative_savings_mwh": 601.3,
+          "renewable_energy_share_percent": 35.9,
+          "co2_emissions_tonnes": 222.6
         },
         {
           "year": 2025,
-          "total_energy_consumption_mwh": 1982.4,
-          "efficiency_improvement_percent": 18.82,
-          "cumulative_savings_mwh": 470.6,
-          "renewable_energy_share_percent": 51.5,
-          "co2_emissions_tonnes": 237.9
+          "total_energy_consumption_mwh": 1853.4,
+          "efficiency_improvement_percent": 24.05,
+          "cumulative_savings_mwh": 601.3,
+          "renewable_energy_share_percent": 51.1,
+          "co2_emissions_tonnes": 222.4
         }
       ]
     },
@@ -118,77 +118,85 @@
       "efficiency_projects": [
         {
           "year": 2021,
-          "project_type": "Energy management system",
-          "investment_nok": 421416,
-          "annual_savings_mwh": 265.4,
-          "co2_reduction_tonnes": 31.8,
-          "enova_support_nok": 63537
+          "project_type": "Solar panel installation",
+          "investment_nok": 1808441,
+          "annual_savings_mwh": 239.0,
+          "co2_reduction_tonnes": 28.7,
+          "enova_support_nok": 163425
         },
         {
-          "year": 2023,
-          "project_type": "Heat pump installation",
-          "investment_nok": 440843,
-          "annual_savings_mwh": 64.4,
-          "co2_reduction_tonnes": 7.7,
-          "enova_support_nok": 252959
+          "year": 2022,
+          "project_type": "LED lighting upgrade",
+          "investment_nok": 1341812,
+          "annual_savings_mwh": 165.1,
+          "co2_reduction_tonnes": 19.8,
+          "enova_support_nok": 454800
+        },
+        {
+          "year": 2024,
+          "project_type": "LED lighting upgrade",
+          "investment_nok": 545678,
+          "annual_savings_mwh": 186.5,
+          "co2_reduction_tonnes": 22.4,
+          "enova_support_nok": 271445
         },
         {
           "year": 2025,
-          "project_type": "HVAC optimization",
-          "investment_nok": 1085113,
-          "annual_savings_mwh": 100.4,
-          "co2_reduction_tonnes": 12.0,
-          "enova_support_nok": 0
+          "project_type": "Electric vehicle fleet",
+          "investment_nok": 1820356,
+          "annual_savings_mwh": 132.0,
+          "co2_reduction_tonnes": 15.8,
+          "enova_support_nok": 154609
         }
       ],
       "annual_metrics": [
         {
           "year": 2020,
-          "total_energy_consumption_mwh": 1783.5,
+          "total_energy_consumption_mwh": 1810.5,
           "efficiency_improvement_percent": 0.0,
           "cumulative_savings_mwh": 0,
-          "renewable_energy_share_percent": 34.5,
-          "co2_emissions_tonnes": 214.0
+          "renewable_energy_share_percent": 35.5,
+          "co2_emissions_tonnes": 217.3
         },
         {
           "year": 2021,
-          "total_energy_consumption_mwh": 1538.1,
-          "efficiency_improvement_percent": 14.74,
-          "cumulative_savings_mwh": 265.4,
-          "renewable_energy_share_percent": 45.8,
-          "co2_emissions_tonnes": 184.6
+          "total_energy_consumption_mwh": 1563.5,
+          "efficiency_improvement_percent": 13.28,
+          "cumulative_savings_mwh": 239.0,
+          "renewable_energy_share_percent": 27.7,
+          "co2_emissions_tonnes": 187.6
         },
         {
           "year": 2022,
-          "total_energy_consumption_mwh": 1491.9,
-          "efficiency_improvement_percent": 14.74,
-          "cumulative_savings_mwh": 265.4,
-          "renewable_energy_share_percent": 49.3,
-          "co2_emissions_tonnes": 179.0
+          "total_energy_consumption_mwh": 1368.5,
+          "efficiency_improvement_percent": 22.45,
+          "cumulative_savings_mwh": 404.2,
+          "renewable_energy_share_percent": 52.6,
+          "co2_emissions_tonnes": 164.2
         },
         {
           "year": 2023,
-          "total_energy_consumption_mwh": 1461.9,
-          "efficiency_improvement_percent": 18.32,
-          "cumulative_savings_mwh": 329.8,
-          "renewable_energy_share_percent": 36.6,
-          "co2_emissions_tonnes": 175.4
+          "total_energy_consumption_mwh": 1382.5,
+          "efficiency_improvement_percent": 22.45,
+          "cumulative_savings_mwh": 404.2,
+          "renewable_energy_share_percent": 29.7,
+          "co2_emissions_tonnes": 165.9
         },
         {
           "year": 2024,
-          "total_energy_consumption_mwh": 1459.5,
-          "efficiency_improvement_percent": 18.32,
-          "cumulative_savings_mwh": 329.8,
-          "renewable_energy_share_percent": 45.6,
-          "co2_emissions_tonnes": 175.1
+          "total_energy_consumption_mwh": 1248.4,
+          "efficiency_improvement_percent": 32.81,
+          "cumulative_savings_mwh": 590.6,
+          "renewable_energy_share_percent": 52.7,
+          "co2_emissions_tonnes": 149.8
         },
         {
           "year": 2025,
-          "total_energy_consumption_mwh": 1387.5,
-          "efficiency_improvement_percent": 23.9,
-          "cumulative_savings_mwh": 430.1,
-          "renewable_energy_share_percent": 74.8,
-          "co2_emissions_tonnes": 166.5
+          "total_energy_consumption_mwh": 1080.0,
+          "efficiency_improvement_percent": 40.15,
+          "cumulative_savings_mwh": 722.7,
+          "renewable_energy_share_percent": 38.0,
+          "co2_emissions_tonnes": 126.9
         }
       ]
     },
@@ -201,78 +209,62 @@
       },
       "efficiency_projects": [
         {
-          "year": 2023,
-          "project_type": "LED lighting upgrade",
-          "investment_nok": 891560,
-          "annual_savings_mwh": 197.7,
-          "co2_reduction_tonnes": 23.7,
-          "enova_support_nok": 122966
-        },
-        {
-          "year": 2024,
-          "project_type": "HVAC optimization",
-          "investment_nok": 773454,
-          "annual_savings_mwh": 230.9,
-          "co2_reduction_tonnes": 27.7,
-          "enova_support_nok": 198155
-        },
-        {
-          "year": 2025,
-          "project_type": "Heat pump installation",
-          "investment_nok": 1221416,
-          "annual_savings_mwh": 267.3,
-          "co2_reduction_tonnes": 32.1,
-          "enova_support_nok": 0
+          "year": 2021,
+          "project_type": "Solar panel installation",
+          "investment_nok": 1769395,
+          "annual_savings_mwh": 149.2,
+          "co2_reduction_tonnes": 17.9,
+          "enova_support_nok": 447092
         }
       ],
       "annual_metrics": [
         {
           "year": 2020,
-          "total_energy_consumption_mwh": 3210.6,
+          "total_energy_consumption_mwh": 3179.0,
           "efficiency_improvement_percent": 0.0,
           "cumulative_savings_mwh": 0,
-          "renewable_energy_share_percent": 56.1,
-          "co2_emissions_tonnes": 385.3
+          "renewable_energy_share_percent": 54.8,
+          "co2_emissions_tonnes": 381.5
         },
         {
           "year": 2021,
-          "total_energy_consumption_mwh": 3240.0,
-          "efficiency_improvement_percent": 0.0,
-          "cumulative_savings_mwh": 0,
-          "renewable_energy_share_percent": 36.2,
-          "co2_emissions_tonnes": 388.8
+          "total_energy_consumption_mwh": 3057.4,
+          "efficiency_improvement_percent": 4.66,
+          "cumulative_savings_mwh": 149.2,
+          "renewable_energy_share_percent": 49.9,
+          "co2_emissions_tonnes": 366.9
         },
         {
           "year": 2022,
-          "total_energy_consumption_mwh": 3208.1,
-          "efficiency_improvement_percent": 0.0,
-          "cumulative_savings_mwh": 0,
-          "renewable_energy_share_percent": 51.0,
-          "co2_emissions_tonnes": 385.0
+          "total_energy_consumption_mwh": 3012.5,
+          "efficiency_improvement_percent": 4.66,
+          "cumulative_savings_mwh": 149.2,
+          "renewable_energy_share_percent": 53.5,
+          "co2_emissions_tonnes": 361.5
         },
         {
           "year": 2023,
-          "total_energy_consumption_mwh": 3013.1,
-          "efficiency_improvement_percent": 6.18,
-          "cumulative_savings_mwh": 197.7,
-          "renewable_energy_share_percent": 39.4,
-          "co2_emissions_tonnes": 361.6
+          "total_energy_consumption_mwh": 3018.2,
+          "efficiency_improvement_percent": 4.66,
+          "cumulative_savings_mwh": 149.2,
+          "renewable_energy_share_percent": 38.3,
+          "co2_emissions_tonnes": 362.2
         },
         {
           "year": 2024,
-          "total_energy_consumption_mwh": 2777.8,
-          "efficiency_improvement_percent": 13.39,
-          "cumulative_savings_mwh": 428.6,
-          "renewable_energy_share_percent": 44.2,
-          "co2_emissions_tonnes": 333.3
+          "total_energy_consumption_mwh": 3064.9,
+          "efficiency_improvement_percent": 4.66,
+          "cumulative_savings_mwh": 149.2,
+          "renewable_energy_share_percent": 42.7,
+          "co2_emissions_tonnes": 367.8
         },
         {
           "year": 2025,
-          "total_energy_consumption_mwh": 2513.6,
-          "efficiency_improvement_percent": 21.74,
-          "cumulative_savings_mwh": 695.8,
-          "renewable_energy_share_percent": 52.8,
-          "co2_emissions_tonnes": 301.6
+          "total_energy_consumption_mwh": 3031.3,
+          "efficiency_improvement_percent": 4.66,
+          "cumulative_savings_mwh": 149.2,
+          "renewable_energy_share_percent": 42.1,
+          "co2_emissions_tonnes": 363.8
         }
       ]
     },
@@ -286,77 +278,77 @@
       "efficiency_projects": [
         {
           "year": 2021,
-          "project_type": "LED lighting upgrade",
-          "investment_nok": 1537531,
-          "annual_savings_mwh": 163.8,
-          "co2_reduction_tonnes": 19.7,
+          "project_type": "Energy management system",
+          "investment_nok": 282718,
+          "annual_savings_mwh": 210.9,
+          "co2_reduction_tonnes": 25.3,
           "enova_support_nok": 0
         },
         {
-          "year": 2023,
-          "project_type": "Electric vehicle fleet",
-          "investment_nok": 1089486,
-          "annual_savings_mwh": 171.7,
-          "co2_reduction_tonnes": 20.6,
+          "year": 2022,
+          "project_type": "Building insulation",
+          "investment_nok": 1075533,
+          "annual_savings_mwh": 50.1,
+          "co2_reduction_tonnes": 6.0,
           "enova_support_nok": 0
         },
         {
           "year": 2024,
-          "project_type": "Building insulation",
-          "investment_nok": 1786001,
-          "annual_savings_mwh": 157.6,
-          "co2_reduction_tonnes": 18.9,
-          "enova_support_nok": 419598
+          "project_type": "Electric vehicle fleet",
+          "investment_nok": 965906,
+          "annual_savings_mwh": 248.5,
+          "co2_reduction_tonnes": 29.8,
+          "enova_support_nok": 426288
         }
       ],
       "annual_metrics": [
         {
           "year": 2020,
-          "total_energy_consumption_mwh": 2099.9,
+          "total_energy_consumption_mwh": 2147.9,
           "efficiency_improvement_percent": 0.0,
           "cumulative_savings_mwh": 0,
-          "renewable_energy_share_percent": 54.2,
-          "co2_emissions_tonnes": 252.0
+          "renewable_energy_share_percent": 55.6,
+          "co2_emissions_tonnes": 257.7
         },
         {
           "year": 2021,
-          "total_energy_consumption_mwh": 1886.8,
-          "efficiency_improvement_percent": 7.8,
-          "cumulative_savings_mwh": 163.8,
-          "renewable_energy_share_percent": 36.8,
-          "co2_emissions_tonnes": 226.4
+          "total_energy_consumption_mwh": 1879.3,
+          "efficiency_improvement_percent": 10.04,
+          "cumulative_savings_mwh": 210.9,
+          "renewable_energy_share_percent": 50.4,
+          "co2_emissions_tonnes": 225.5
         },
         {
           "year": 2022,
-          "total_energy_consumption_mwh": 1892.8,
-          "efficiency_improvement_percent": 7.8,
-          "cumulative_savings_mwh": 163.8,
-          "renewable_energy_share_percent": 46.5,
-          "co2_emissions_tonnes": 227.1
+          "total_energy_consumption_mwh": 1857.7,
+          "efficiency_improvement_percent": 12.43,
+          "cumulative_savings_mwh": 261.0,
+          "renewable_energy_share_percent": 37.6,
+          "co2_emissions_tonnes": 222.9
         },
         {
           "year": 2023,
-          "total_energy_consumption_mwh": 1788.8,
-          "efficiency_improvement_percent": 15.98,
-          "cumulative_savings_mwh": 335.6,
-          "renewable_energy_share_percent": 45.6,
-          "co2_emissions_tonnes": 214.7
+          "total_energy_consumption_mwh": 1883.9,
+          "efficiency_improvement_percent": 12.43,
+          "cumulative_savings_mwh": 261.0,
+          "renewable_energy_share_percent": 35.1,
+          "co2_emissions_tonnes": 226.1
         },
         {
           "year": 2024,
-          "total_energy_consumption_mwh": 1603.9,
-          "efficiency_improvement_percent": 23.48,
-          "cumulative_savings_mwh": 493.2,
-          "renewable_energy_share_percent": 62.7,
-          "co2_emissions_tonnes": 192.5
+          "total_energy_consumption_mwh": 1572.3,
+          "efficiency_improvement_percent": 24.26,
+          "cumulative_savings_mwh": 509.5,
+          "renewable_energy_share_percent": 49.9,
+          "co2_emissions_tonnes": 188.7
         },
         {
           "year": 2025,
-          "total_energy_consumption_mwh": 1605.9,
-          "efficiency_improvement_percent": 23.48,
-          "cumulative_savings_mwh": 493.2,
-          "renewable_energy_share_percent": 69.0,
-          "co2_emissions_tonnes": 192.7
+          "total_energy_consumption_mwh": 1572.8,
+          "efficiency_improvement_percent": 24.26,
+          "cumulative_savings_mwh": 509.5,
+          "renewable_energy_share_percent": 46.0,
+          "co2_emissions_tonnes": 188.7
         }
       ]
     },
@@ -369,78 +361,70 @@
       },
       "efficiency_projects": [
         {
-          "year": 2022,
-          "project_type": "Electric vehicle fleet",
-          "investment_nok": 615893,
-          "annual_savings_mwh": 132.5,
-          "co2_reduction_tonnes": 15.9,
+          "year": 2021,
+          "project_type": "Heat pump installation",
+          "investment_nok": 1768685,
+          "annual_savings_mwh": 165.1,
+          "co2_reduction_tonnes": 19.8,
           "enova_support_nok": 0
         },
         {
-          "year": 2023,
-          "project_type": "Building insulation",
-          "investment_nok": 1951922,
-          "annual_savings_mwh": 120.0,
-          "co2_reduction_tonnes": 14.4,
-          "enova_support_nok": 487802
-        },
-        {
-          "year": 2024,
-          "project_type": "HVAC optimization",
-          "investment_nok": 429751,
-          "annual_savings_mwh": 143.6,
-          "co2_reduction_tonnes": 17.2,
-          "enova_support_nok": 272892
+          "year": 2025,
+          "project_type": "LED lighting upgrade",
+          "investment_nok": 1815866,
+          "annual_savings_mwh": 233.3,
+          "co2_reduction_tonnes": 28.0,
+          "enova_support_nok": 145109
         }
       ],
       "annual_metrics": [
         {
           "year": 2020,
-          "total_energy_consumption_mwh": 1587.1,
+          "total_energy_consumption_mwh": 1645.2,
           "efficiency_improvement_percent": 0.0,
           "cumulative_savings_mwh": 0,
-          "renewable_energy_share_percent": 46.2,
-          "co2_emissions_tonnes": 190.5
+          "renewable_energy_share_percent": 30.2,
+          "co2_emissions_tonnes": 197.4
         },
         {
           "year": 2021,
-          "total_energy_consumption_mwh": 1555.0,
-          "efficiency_improvement_percent": 0.0,
-          "cumulative_savings_mwh": 0,
-          "renewable_energy_share_percent": 59.0,
-          "co2_emissions_tonnes": 186.6
+          "total_energy_consumption_mwh": 1454.6,
+          "efficiency_improvement_percent": 10.32,
+          "cumulative_savings_mwh": 165.1,
+          "renewable_energy_share_percent": 41.9,
+          "co2_emissions_tonnes": 174.5
         },
         {
           "year": 2022,
-          "total_energy_consumption_mwh": 1435.3,
-          "efficiency_improvement_percent": 8.28,
-          "cumulative_savings_mwh": 132.5,
-          "renewable_energy_share_percent": 28.4,
-          "co2_emissions_tonnes": 172.2
+          "total_energy_consumption_mwh": 1451.4,
+          "efficiency_improvement_percent": 10.32,
+          "cumulative_savings_mwh": 165.1,
+          "renewable_energy_share_percent": 54.5,
+          "co2_emissions_tonnes": 174.2
         },
         {
           "year": 2023,
-          "total_energy_consumption_mwh": 1329.7,
-          "efficiency_improvement_percent": 15.78,
-          "cumulative_savings_mwh": 252.5,
-          "renewable_energy_share_percent": 68.7,
-          "co2_emissions_tonnes": 159.6
+          "total_energy_consumption_mwh": 1460.2,
+          "efficiency_improvement_percent": 10.32,
+          "cumulative_savings_mwh": 165.1,
+          "renewable_energy_share_percent": 66.3,
+          "co2_emissions_tonnes": 175.2
         },
         {
           "year": 2024,
-          "total_energy_consumption_mwh": 1196.8,
-          "efficiency_improvement_percent": 24.76,
-          "cumulative_savings_mwh": 396.2,
-          "renewable_energy_share_percent": 34.1,
-          "co2_emissions_tonnes": 143.6
+          "total_energy_consumption_mwh": 1392.1,
+          "efficiency_improvement_percent": 10.32,
+          "cumulative_savings_mwh": 165.1,
+          "renewable_energy_share_percent": 67.0,
+          "co2_emissions_tonnes": 167.1
         },
         {
           "year": 2025,
-          "total_energy_consumption_mwh": 1166.3,
-          "efficiency_improvement_percent": 24.76,
-          "cumulative_savings_mwh": 396.2,
-          "renewable_energy_share_percent": 68.5,
-          "co2_emissions_tonnes": 140.0
+          "total_energy_consumption_mwh": 1192.8,
+          "efficiency_improvement_percent": 24.9,
+          "cumulative_savings_mwh": 398.4,
+          "renewable_energy_share_percent": 41.0,
+          "co2_emissions_tonnes": 143.1
         }
       ]
     },
@@ -453,86 +437,78 @@
       },
       "efficiency_projects": [
         {
-          "year": 2021,
-          "project_type": "Heat pump installation",
-          "investment_nok": 1804082,
-          "annual_savings_mwh": 241.1,
-          "co2_reduction_tonnes": 28.9,
-          "enova_support_nok": 0
+          "year": 2022,
+          "project_type": "Electric vehicle fleet",
+          "investment_nok": 216097,
+          "annual_savings_mwh": 199.6,
+          "co2_reduction_tonnes": 24.0,
+          "enova_support_nok": 94470
         },
         {
           "year": 2023,
-          "project_type": "Energy management system",
-          "investment_nok": 1279180,
-          "annual_savings_mwh": 186.0,
-          "co2_reduction_tonnes": 22.3,
-          "enova_support_nok": 486035
-        },
-        {
-          "year": 2024,
-          "project_type": "HVAC optimization",
-          "investment_nok": 664603,
-          "annual_savings_mwh": 78.6,
-          "co2_reduction_tonnes": 9.4,
-          "enova_support_nok": 0
+          "project_type": "Solar panel installation",
+          "investment_nok": 1963930,
+          "annual_savings_mwh": 291.7,
+          "co2_reduction_tonnes": 35.0,
+          "enova_support_nok": 297707
         },
         {
           "year": 2025,
-          "project_type": "Electric vehicle fleet",
-          "investment_nok": 852552,
-          "annual_savings_mwh": 215.8,
-          "co2_reduction_tonnes": 25.9,
-          "enova_support_nok": 441514
+          "project_type": "LED lighting upgrade",
+          "investment_nok": 373843,
+          "annual_savings_mwh": 97.2,
+          "co2_reduction_tonnes": 11.7,
+          "enova_support_nok": 0
         }
       ],
       "annual_metrics": [
         {
           "year": 2020,
-          "total_energy_consumption_mwh": 2775.7,
+          "total_energy_consumption_mwh": 2763.0,
           "efficiency_improvement_percent": 0.0,
           "cumulative_savings_mwh": 0,
-          "renewable_energy_share_percent": 32.1,
-          "co2_emissions_tonnes": 333.1
+          "renewable_energy_share_percent": 44.5,
+          "co2_emissions_tonnes": 331.6
         },
         {
           "year": 2021,
-          "total_energy_consumption_mwh": 2581.6,
-          "efficiency_improvement_percent": 8.61,
-          "cumulative_savings_mwh": 241.1,
-          "renewable_energy_share_percent": 25.6,
-          "co2_emissions_tonnes": 309.8
+          "total_energy_consumption_mwh": 2758.0,
+          "efficiency_improvement_percent": 0.0,
+          "cumulative_savings_mwh": 0,
+          "renewable_energy_share_percent": 51.0,
+          "co2_emissions_tonnes": 331.0
         },
         {
           "year": 2022,
-          "total_energy_consumption_mwh": 2589.1,
-          "efficiency_improvement_percent": 8.61,
-          "cumulative_savings_mwh": 241.1,
-          "renewable_energy_share_percent": 34.0,
-          "co2_emissions_tonnes": 310.7
+          "total_energy_consumption_mwh": 2585.9,
+          "efficiency_improvement_percent": 7.13,
+          "cumulative_savings_mwh": 199.6,
+          "renewable_energy_share_percent": 57.2,
+          "co2_emissions_tonnes": 310.3
         },
         {
           "year": 2023,
-          "total_energy_consumption_mwh": 2327.9,
-          "efficiency_improvement_percent": 15.25,
-          "cumulative_savings_mwh": 427.1,
-          "renewable_energy_share_percent": 67.8,
-          "co2_emissions_tonnes": 279.3
+          "total_energy_consumption_mwh": 2282.0,
+          "efficiency_improvement_percent": 17.55,
+          "cumulative_savings_mwh": 491.3,
+          "renewable_energy_share_percent": 33.0,
+          "co2_emissions_tonnes": 273.8
         },
         {
           "year": 2024,
-          "total_energy_consumption_mwh": 2325.0,
-          "efficiency_improvement_percent": 18.06,
-          "cumulative_savings_mwh": 505.8,
-          "renewable_energy_share_percent": 62.8,
-          "co2_emissions_tonnes": 279.0
+          "total_energy_consumption_mwh": 2320.4,
+          "efficiency_improvement_percent": 17.55,
+          "cumulative_savings_mwh": 491.3,
+          "renewable_energy_share_percent": 48.9,
+          "co2_emissions_tonnes": 278.4
         },
         {
           "year": 2025,
-          "total_energy_consumption_mwh": 2066.6,
-          "efficiency_improvement_percent": 25.77,
-          "cumulative_savings_mwh": 721.5,
-          "renewable_energy_share_percent": 39.6,
-          "co2_emissions_tonnes": 248.0
+          "total_energy_consumption_mwh": 2235.9,
+          "efficiency_improvement_percent": 21.02,
+          "cumulative_savings_mwh": 588.5,
+          "renewable_energy_share_percent": 54.0,
+          "co2_emissions_tonnes": 268.3
         }
       ]
     },
@@ -546,85 +522,77 @@
       "efficiency_projects": [
         {
           "year": 2021,
-          "project_type": "HVAC optimization",
-          "investment_nok": 1789941,
-          "annual_savings_mwh": 175.4,
-          "co2_reduction_tonnes": 21.0,
-          "enova_support_nok": 190155
-        },
-        {
-          "year": 2022,
-          "project_type": "HVAC optimization",
-          "investment_nok": 1165310,
-          "annual_savings_mwh": 154.3,
-          "co2_reduction_tonnes": 18.5,
-          "enova_support_nok": 265472
+          "project_type": "Solar panel installation",
+          "investment_nok": 1583108,
+          "annual_savings_mwh": 219.1,
+          "co2_reduction_tonnes": 26.3,
+          "enova_support_nok": 0
         },
         {
           "year": 2023,
-          "project_type": "Building insulation",
-          "investment_nok": 750324,
-          "annual_savings_mwh": 253.4,
-          "co2_reduction_tonnes": 30.4,
-          "enova_support_nok": 448070
+          "project_type": "Electric vehicle fleet",
+          "investment_nok": 1392226,
+          "annual_savings_mwh": 247.4,
+          "co2_reduction_tonnes": 29.7,
+          "enova_support_nok": 418567
         },
         {
           "year": 2024,
-          "project_type": "Energy management system",
-          "investment_nok": 452400,
-          "annual_savings_mwh": 129.6,
-          "co2_reduction_tonnes": 15.6,
-          "enova_support_nok": 222406
+          "project_type": "Solar panel installation",
+          "investment_nok": 527687,
+          "annual_savings_mwh": 205.8,
+          "co2_reduction_tonnes": 24.7,
+          "enova_support_nok": 187996
         }
       ],
       "annual_metrics": [
         {
           "year": 2020,
-          "total_energy_consumption_mwh": 1165.3,
+          "total_energy_consumption_mwh": 1218.3,
           "efficiency_improvement_percent": 0.0,
           "cumulative_savings_mwh": 0,
-          "renewable_energy_share_percent": 42.5,
-          "co2_emissions_tonnes": 139.8
+          "renewable_energy_share_percent": 25.8,
+          "co2_emissions_tonnes": 146.2
         },
         {
           "year": 2021,
-          "total_energy_consumption_mwh": 1000.9,
-          "efficiency_improvement_percent": 14.61,
-          "cumulative_savings_mwh": 175.4,
-          "renewable_energy_share_percent": 26.6,
-          "co2_emissions_tonnes": 120.1
+          "total_energy_consumption_mwh": 958.5,
+          "efficiency_improvement_percent": 18.26,
+          "cumulative_savings_mwh": 219.1,
+          "renewable_energy_share_percent": 43.2,
+          "co2_emissions_tonnes": 115.0
         },
         {
           "year": 2022,
-          "total_energy_consumption_mwh": 904.0,
-          "efficiency_improvement_percent": 27.47,
-          "cumulative_savings_mwh": 329.7,
-          "renewable_energy_share_percent": 41.0,
-          "co2_emissions_tonnes": 108.5
+          "total_energy_consumption_mwh": 1014.2,
+          "efficiency_improvement_percent": 18.26,
+          "cumulative_savings_mwh": 219.1,
+          "renewable_energy_share_percent": 37.6,
+          "co2_emissions_tonnes": 121.7
         },
         {
           "year": 2023,
           "total_energy_consumption_mwh": 720.0,
-          "efficiency_improvement_percent": 48.59,
-          "cumulative_savings_mwh": 583.1,
-          "renewable_energy_share_percent": 48.9,
-          "co2_emissions_tonnes": 73.2
+          "efficiency_improvement_percent": 38.87,
+          "cumulative_savings_mwh": 466.5,
+          "renewable_energy_share_percent": 56.9,
+          "co2_emissions_tonnes": 82.7
         },
         {
           "year": 2024,
           "total_energy_consumption_mwh": 720.0,
-          "efficiency_improvement_percent": 59.39,
-          "cumulative_savings_mwh": 712.6,
-          "renewable_energy_share_percent": 49.2,
-          "co2_emissions_tonnes": 58.1
+          "efficiency_improvement_percent": 56.03,
+          "cumulative_savings_mwh": 672.3,
+          "renewable_energy_share_percent": 58.9,
+          "co2_emissions_tonnes": 59.0
         },
         {
           "year": 2025,
           "total_energy_consumption_mwh": 720.0,
-          "efficiency_improvement_percent": 59.39,
-          "cumulative_savings_mwh": 712.6,
-          "renewable_energy_share_percent": 50.1,
-          "co2_emissions_tonnes": 62.6
+          "efficiency_improvement_percent": 56.03,
+          "cumulative_savings_mwh": 672.3,
+          "renewable_energy_share_percent": 54.3,
+          "co2_emissions_tonnes": 57.7
         }
       ]
     }

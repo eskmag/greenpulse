@@ -7,13 +7,15 @@ import sys
 from pathlib import Path
 
 # Add project root to Python path
-project_root = Path(__file__).resolve().parent
+project_root = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(project_root))
 
 def add_demo_companies():
     """Add demo companies and users to the database"""
-    from webapp import app, db, Company, User, UserRole
+    from app import create_app, db
+    from app.models import Company, User, UserRole
     
+    app = create_app()
     with app.app_context():
         print("🏢 Adding demo companies to GreenPulse database...")
         

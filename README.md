@@ -67,35 +67,35 @@ cp .env.example .env
 ### 2. Web Application
 ```bash
 # Start the Flask web application
-python webapp.py
+python3 run.py
 # Visit http://127.0.0.1:5002 to access the API
 
 # Test the API
-python test_api.py
+python3 tests/test_api.py
 
 # Add demo data (companies and users)
-python add_demo_data.py
+python3 scripts/add_demo_data.py
 
 # Run Phase 1 MVP demo
-python phase1_demo.py
+python3 scripts/phase1_demo.py
 ```
 
 ### 3. Data Analytics Platform
 ```bash
 # Fetch all available data
-python main.py fetch
+python3 main.py fetch
 
 # Run emissions analysis only
-python main.py analyze
+python3 main.py analyze
 
 # Run comprehensive ESG analysis
-python main.py comprehensive
+python3 main.py comprehensive
 
 # Launch interactive dashboard
-python main.py dashboard
+python3 main.py dashboard
 
 # Complete workflow
-python main.py fetch && python main.py comprehensive && python main.py dashboard
+python3 main.py fetch && python3 main.py comprehensive && python3 main.py dashboard
 ```
 
 ## 📊 Data Sources

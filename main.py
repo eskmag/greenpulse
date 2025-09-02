@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
 GreenPulse - Unified CLI for ESG data analysis and reporting
-Also serves as the entry point for the Flask web application
 """
 import argparse
 import sys
@@ -222,7 +221,7 @@ def run_comprehensive_analysis():
         print("\n" + esg_report)
         
         # Save report to file
-        report_path = project_root / "esg_analysis_report.txt"
+        report_path = project_root / "reports" / "esg_analysis_report.txt"
         with open(report_path, 'w', encoding='utf-8') as f:
             f.write(esg_report)
         

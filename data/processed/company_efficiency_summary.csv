@@ -1,8 +1,8 @@
 company_name,sector,employees,total_projects,total_investment_nok,energy_savings_mwh,efficiency_improvement_percent,renewable_share_percent,co2_emissions_tonnes,year
-Bergen Maritime Solutions AS,Maritime,150,3,3086558,470.6,18.82,51.5,237.9,2025
-Havbruk Bergen AS,Aquaculture,80,3,1947372,430.1,23.9,74.8,166.5,2025
-Vestland Industri AS,Manufacturing,200,3,2886430,695.8,21.74,52.8,301.6,2025
-Bergen Logistikk AS,Transport,120,3,4413018,493.2,23.48,69.0,192.7,2025
-Fjord Energy Solutions,Energy,90,3,2997566,396.2,24.76,68.5,140.0,2025
-Bergen Fish Processing,Food Processing,160,4,4600417,721.5,25.77,39.6,248.0,2025
-Kystservice Bergen AS,Services,75,4,4157975,712.6,59.39,50.1,62.6,2025
+Bergen Maritime Solutions AS,Maritime,150,3,3349999,601.3,24.05,51.1,222.4,2025
+Havbruk Bergen AS,Aquaculture,80,4,5516287,722.7,40.15,38.0,126.9,2025
+Vestland Industri AS,Manufacturing,200,1,1769395,149.2,4.66,42.1,363.8,2025
+Bergen Logistikk AS,Transport,120,3,2324157,509.5,24.26,46.0,188.7,2025
+Fjord Energy Solutions,Energy,90,2,3584551,398.4,24.9,41.0,143.1,2025
+Bergen Fish Processing,Food Processing,160,3,2553870,588.5,21.02,54.0,268.3,2025
+Kystservice Bergen AS,Services,75,3,3503021,672.3,56.03,54.3,57.7,2025
